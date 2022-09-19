@@ -41,7 +41,7 @@ const MainHeader = ({ title }) => {
         <Alert status="warning" w="100%" borderRadius="8px" my="1rem">
           <AlertIcon />
           <Text color="#aaa">
-            Site is still under reconstruction (Late July 2021). Be patient!
+            Site is still under reconstruction <br> (Late 10 September 2022). Be patient!
           </Text>
           <CloseButton
             position="absolute"
@@ -59,11 +59,11 @@ const MainHeader = ({ title }) => {
         <Flex as="a" direction="row" justifyContent="start" alignItems="center">
           <Avatar
             size="sm"
-            name="mathdroid"
+            name="paddd"
             src="https://mathdro.id/profile.png"
             mr=".5rem"
           />
-          <Headline>@mathdroid{title ? `: ${title}` : ""}</Headline>
+          <Headline>@fadddrf{title ? `: ${title}` : ""}</Headline>
         </Flex>
       </Link>
     </Flex>
